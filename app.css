@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  justify-content: center;
+  /* background-image: url(weather.jpg); */
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+.app h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.search {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+.country input {
+  font-size: 15px;
+  border-radius: 17px;
+  padding: 5px 15px 5px 15px;
+  border: 1.5px solid black;
+}
+
+.search button {
+  border-radius: 17px;
+  padding: 5px 15px 5px 15px;
+  border: 1.5px solid black;
+}
+
+.search button :hover {
+  color: red;
+}
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.speed {
+  font-size: 20px;
+  /* font-weight: 600; */
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 37px;
+  color: white;
+}
+
+.speed img {
+  padding-right: 30px;
+}
+
+.humidity {
+  font-size: 20px;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 37px;
+  color: white;
+}
+
+.humidity img {
+  padding: 0 30px 0 0;
+}
+
+.state {
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.temp {
+  color: white;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.btn :hover {
+  cursor: pointer;
+  color: rgb(238, 244, 242);
+}
